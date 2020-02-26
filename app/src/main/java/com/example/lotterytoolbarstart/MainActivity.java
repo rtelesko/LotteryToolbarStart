@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         // Setting the title
         toolbar.setTitle("Toolbar Start");
 
-        // Placing Toolbar instead of Actionbar
+        // See steps for replacing AppBar with Toolbar: https://developer.android.com/training/appbar/setting-up
         setSupportActionBar(toolbar);
     }
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch(item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.mnuShare:
                 Toast.makeText(this, "You clicked 'Share Content'", Toast.LENGTH_SHORT).show();
                 break;
