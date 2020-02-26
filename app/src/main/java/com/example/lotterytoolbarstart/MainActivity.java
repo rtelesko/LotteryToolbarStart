@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Getting the Toolbar
-        Toolbar toolbar = findViewById(R.id.tbExample);
+        Toolbar tbExample = findViewById(R.id.tbExample);
 
         // Setting the title
-        toolbar.setTitle("Toolbar Start");
+        tbExample.setTitle("Toolbar Start");
 
         // See steps for replacing AppBar with Toolbar: https://developer.android.com/training/appbar/setting-up
-        setSupportActionBar(toolbar);
+        setSupportActionBar(tbExample);
     }
 
 
